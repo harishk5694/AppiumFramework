@@ -1,0 +1,22 @@
+/bin/
+/.classpath
+.project
+.settings
+*.log
+.project
+.settings
+*.html
+/test-output/
+
+# Compiled class file
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+/target/
