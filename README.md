@@ -1,4 +1,4 @@
-## Page Object Pattern with TestNg based datadriven framework for testing android devices using UiAutomator2 framework.
+## Page Object Pattern with TestNg based datadriven framework for testing mobile applications
 
 ## Pre Requisite:
 1. Download and install Java (JDK-> 1.8 and higher) and set path of jdk and bin folder
