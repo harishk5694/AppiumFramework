@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="91003" started-at="2020-10-19T20:31:15 IST" finished-at="2020-10-19T20:32:46 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="91003" started-at="2020-10-19T20:31:15 IST" finished-at="2020-10-19T20:32:46 IST">
+      <class name="com.flipkart.qa.tests.EndToEndTest">
+        <test-method status="PASS" signature="startAppiumService()[pri:0, instance:com.flipkart.qa.tests.EndToEndTest@553a3d88]" name="startAppiumService" is-config="true" duration-ms="72" started-at="2020-10-19T20:31:15 IST" finished-at="2020-10-19T20:31:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startAppiumService -->
+        <test-method status="PASS" signature="loadProperties()[pri:0, instance:com.flipkart.qa.tests.EndToEndTest@553a3d88]" name="loadProperties" is-config="true" duration-ms="0" started-at="2020-10-19T20:31:15 IST" finished-at="2020-10-19T20:31:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadProperties -->
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.flipkart.qa.tests.EndToEndTest@553a3d88]" name="initializeDriver" is-config="true" duration-ms="6654" started-at="2020-10-19T20:31:15 IST" finished-at="2020-10-19T20:31:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="testEndToEndScenario(com.flipkart.qa.util.TestParams)[pri:0, instance:com.flipkart.qa.tests.EndToEndTest@553a3d88]" name="testEndToEndScenario" duration-ms="83995" started-at="2020-10-19T20:31:22 IST" data-provider="xml" finished-at="2020-10-19T20:32:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.flipkart.qa.util.TestParams@16414e40]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEndToEndScenario -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.flipkart.qa.tests.EndToEndTest@553a3d88]" name="afterTest" is-config="true" duration-ms="316" started-at="2020-10-19T20:32:46 IST" finished-at="2020-10-19T20:32:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.flipkart.qa.tests.EndToEndTest@553a3d88]" name="afterSuite" is-config="true" duration-ms="0" started-at="2020-10-19T20:32:46 IST" finished-at="2020-10-19T20:32:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.flipkart.qa.tests.EndToEndTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

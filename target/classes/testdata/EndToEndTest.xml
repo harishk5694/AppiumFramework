@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<parameters xmlns="http://www.w3schools.com"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.w3schools.com file://parameters.xsd">
+	<set name="EndToEnd">
+		<test name="EndToEnd">
+			<parameter name="AppLanguage">English</parameter>
+			<parameter name="ProductName">T Shirt</parameter>
+			<parameter name="FilterType">Brand</parameter>
+			<parameter name="FilterValues" type="list-string">
+				<li>Wrangler</li>
+			</parameter>
+			<parameter name="SortingCriteria">Price -- Low to High</parameter>
+			<parameter name="ProductSize">S</parameter>
+		</test>
+	</set>
+</parameters> 	
