@@ -70,8 +70,6 @@ public class EndToEndTest extends Connection{
 		logger.info("About to navigate to my cart page and validate price");
 		MyCartPage myCart=prodDetsPage.goToCart();
 		Assert.assertEquals(myCart.isElementDisplayed(MyCartPage.placeOrderButtonBy,"My Cart Page"), true,"My Cart Page Not Displayed");
-		String deliveryCharges=myCart.getDeliveryCharges();
-		Integer totlAmt=Integer.valueOf(prodPrice)+Integer.valueOf(deliveryCharges);
-		Assert.assertEquals(myCart.getTotalAmout(), String.valueOf(totlAmt),"Expected and actual total amount doesn't match");	
+		Assert.assertEquals(myCart.getTotalAmout(), String.valueOf(Integer.valueOf(prodPrice)+Integer.valueOf(myCart.getDeliveryCharges())),"Expected and actual total amount doesn't match");	
 	}
 }
